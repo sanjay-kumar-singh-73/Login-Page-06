@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login-Page</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="navbar">
+            <h2>Web<span>site</span></h2>
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Service</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="button">
+                <button class="btn">Sign In</button>
+                <button class="btn">Sign Up</button>
+            </div>
+        </div>
+    </header>
+
+    <div class="container" >
+        <div class="main-form">
+            <h2>Login</h2>
+        <form action="">
+            <div class="input-box">
+                <input type="text" placeholder=" User-Name" required/>
+                <div class="icon"><i class="fa-solid fa-user-tie"></i></div>
+            </div>
+            <div class="input-box">
+                <input type="email" placeholder="Valid-User-Email" required/>
+                <div class="icon"><i class="fa-solid fa-user-tie"></i></div>
+            </div>
+            <div class="input-box">
+                <input type="password" placeholder="User-Password" required />
+                <div class="icon"><i class="fa-solid fa-lock"></i></div>
+            </div>
+            <div class="need">
+                <label><input type="checkbox">Remember Me</label>
+                <a href="#">Forget Password</a>
+            </div>
+            <button type="submit" class="S-btn">Login</button>
+            <div class="link">
+                <p>Don't have an account? <a href="#">Register</a></p>
+            </div>
+        </form>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
